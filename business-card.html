@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#172522" />
+    <title>BSI | Business Card</title>
+    <link rel="stylesheet" href="business-card.css" />
+  </head>
+  <body>
+    <main class="studio">
+      <header class="studio-header">
+        <a class="brand" href="index.html" aria-label="BSI website for BASURRA INTERNATIONAL">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>BSI</span>
+        </a>
+        <button class="print-button" type="button" onclick="window.print()"><span aria-hidden="true">▣</span> Print / Save PDF</button>
+      </header>
+
+      <section class="card-pair" aria-label="Front and back of BSI's BASURRA INTERNATIONAL business card">
+        <article class="card card-front" aria-label="Business card front">
+          <div class="front-top">
+            <div class="card-brand">
+              <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="brand-copy"><strong>BSI</strong><small>BASURRA INTERNATIONAL</small></span>
+            </div>
+            <span class="front-label">BELGIUM <b>·</b> WORLDWIDE</span>
+          </div>
+          <div class="front-bottom">
+            <div>
+              <p class="front-kicker">INTERNATIONAL TRADE</p>
+              <h1>Saeed Ba Surra</h1>
+              <p class="front-role">IMPORT <i></i> EXPORT</p>
+            </div>
+            <div class="trade-mark" aria-hidden="true">
+              <span class="trade-ring ring-a"></span>
+              <span class="trade-ring ring-b"></span>
+              <span class="trade-ring ring-c"></span>
+              <span class="trade-node node-a"></span>
+              <span class="trade-node node-b"></span>
+              <span class="trade-node node-c"></span>
+              <span class="trade-core"><i></i><i></i><i></i></span>
+            </div>
+          </div>
+          <span class="front-index" aria-hidden="true">BSI — BE</span>
+        </article>
+
+        <article class="card card-back" aria-label="Business card back">
+          <div class="back-heading">
+            <div class="card-brand">
+              <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="brand-copy"><strong>BSI</strong><small>BASURRA INTERNATIONAL</small></span>
+            </div>
+            <span class="back-label">OPEN TO THE WORLD</span>
+          </div>
+          <div class="back-content">
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-label">EMAIL</span>
+                <a href="mailto:info@basurra.com">info@basurra.com</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">PHONE / WHATSAPP</span>
+                <a href="tel:+32497358388">+32 497 35 83 88</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">ADDRESS</span>
+                <span>Gent 9000, Belgium</span>
+              </div>
+              <div class="contact-item contact-website">
+                <span class="contact-label">WEBSITE</span>
+                <a href="https://basurra.com">basurra.com</a>
+              </div>
+            </div>
+            <a class="qr-link" href="https://basurra.com" target="_blank" rel="noreferrer" aria-label="Scan to visit basurra.com">
+              <img src="website-qr.svg" alt="QR code for basurra.com" />
+              <span>SCAN TO VISIT</span>
+            </a>
+          </div>
+          <div class="back-rule"><span></span><span>Heritage in Our Roots, Trade Without Borders.</span><span></span></div>
+        </article>
+      </section>
+      <p class="studio-note">Front and back · 85 × 55 mm</p>
+    </main>
+    <script>
+      document.querySelector('.print-button').addEventListener('click', () => window.print());
+    </script>
+  </body>
+</html>

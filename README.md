@@ -1,10 +1,12 @@
 # basurra.com
 
-A responsive, dependency-free website for Selotuin, an import and export company based in Belgium.
+A responsive, dependency-free website for BASURRA INTERNATIONAL, an import and export company based in Belgium.
 
 ## Run locally
 
 Open `index.html` in a browser. The site uses plain HTML, CSS and JavaScript, so no build tools or package installation are needed.
+
+Open `business-card.html` to preview and print Saeed Ba Surra's two-sided business card, or `business-card-mokhtar.html` for Mokhtar Bawahal's card. Use **Print / Save PDF**; each front and back are set to 85 × 55 mm.
 
 ## Publish with GitHub Pages and Namecheap
 

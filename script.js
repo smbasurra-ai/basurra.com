@@ -22,7 +22,7 @@ document.querySelector('#inquiry-form').addEventListener('submit', (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
   const body = [
-    'New Selotuin trade inquiry',
+    'New BASURRA INTERNATIONAL trade inquiry',
     '',
     `Name: ${form.get('name')}`,
     `Email: ${form.get('email')}`,
